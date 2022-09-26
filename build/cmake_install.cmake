@@ -131,6 +131,15 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/dannyvm/catkin_ws/build/gtest/cmake_install.cmake")
+  include("/home/dannyvm/catkin_ws/build/unitree_ros/robots/a1_description/cmake_install.cmake")
+  include("/home/dannyvm/catkin_ws/build/unitree_ros/robots/aliengo_description/cmake_install.cmake")
+  include("/home/dannyvm/catkin_ws/build/unitree_ros/robots/go1_description/cmake_install.cmake")
+  include("/home/dannyvm/catkin_ws/build/unitree_ros/robots/laikago_description/cmake_install.cmake")
+  include("/home/dannyvm/catkin_ws/build/unitree_ros_to_real/unitree_legged_msgs/cmake_install.cmake")
+  include("/home/dannyvm/catkin_ws/build/unitree_ros/unitree_legged_control/cmake_install.cmake")
+  include("/home/dannyvm/catkin_ws/build/unitree_ros_to_real/unitree_legged_real/cmake_install.cmake")
+  include("/home/dannyvm/catkin_ws/build/unitree_ros/unitree_controller/cmake_install.cmake")
+  include("/home/dannyvm/catkin_ws/build/unitree_ros/unitree_gazebo/cmake_install.cmake")
 
 endif()
 
